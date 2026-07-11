@@ -1,0 +1,24 @@
+{
+  "companyName": "Persian Star",
+  "legalName": "Persian Star Building Hardware & Tools Trading L.L.C.",
+  "brandName": "VIPEX",
+  "tagline": "Built to Work.",
+  "description": "Persian Star supplies VIPEX industrial tools alongside the professional brands the trade already trusts — engineered for the jobsite, backed across the UAE.",
+  "url": "https://persianstar.example",
+  "whatsappNumber": "9715XXXXXXXX",
+  "phoneDisplay": "+971 5X XXX XXXX",
+  "phoneHref": "+9715XXXXXXXX",
+  "email": "sales@persianstar.example",
+  "address": {
+    "line1": "Building Hardware & Tools Trading L.L.C.",
+    "line2": "Industrial Area",
+    "city": "Dubai",
+    "country": "United Arab Emirates"
+  },
+  "hours": "Sat–Thu, 8:00–19:00 GST",
+  "geo": { "latitude": 25.2048, "longitude": 55.2708 },
+  "socials": [
+    { "label": "Instagram", "href": "#" },
+    { "label": "LinkedIn", "href": "#" }
+  ]
+}

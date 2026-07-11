@@ -1,0 +1,83 @@
+[
+  {
+    "id": "vipex",
+    "slug": "vipex",
+    "name": "VIPEX",
+    "logo": { "src": "/images/brands/brand-vipex-600x200.webp", "alt": "VIPEX", "width": 600, "height": 200 },
+    "isOwnBrand": true,
+    "description": "Our own line of professional-grade tools — engineered to the standards of the trade, without the premium markup. VIPEX is built to work, shift after shift.",
+    "order": 0
+  },
+  {
+    "id": "makita",
+    "slug": "makita",
+    "name": "Makita",
+    "logo": { "src": "/images/brands/brand-makita-600x200.webp", "alt": "Makita", "width": 600, "height": 200 },
+    "isOwnBrand": false,
+    "order": 1
+  },
+  {
+    "id": "bosch",
+    "slug": "bosch",
+    "name": "Bosch",
+    "logo": { "src": "/images/brands/brand-bosch-600x200.webp", "alt": "Bosch", "width": 600, "height": 200 },
+    "isOwnBrand": false,
+    "order": 2
+  },
+  {
+    "id": "dewalt",
+    "slug": "dewalt",
+    "name": "DeWalt",
+    "logo": { "src": "/images/brands/brand-dewalt-600x200.webp", "alt": "DeWalt", "width": 600, "height": 200 },
+    "isOwnBrand": false,
+    "order": 3
+  },
+  {
+    "id": "stanley",
+    "slug": "stanley",
+    "name": "Stanley",
+    "logo": { "src": "/images/brands/brand-stanley-600x200.webp", "alt": "Stanley", "width": 600, "height": 200 },
+    "isOwnBrand": false,
+    "order": 4
+  },
+  {
+    "id": "knipex",
+    "slug": "knipex",
+    "name": "Knipex",
+    "logo": { "src": "/images/brands/brand-knipex-600x200.webp", "alt": "Knipex", "width": 600, "height": 200 },
+    "isOwnBrand": false,
+    "order": 5
+  },
+  {
+    "id": "fluke",
+    "slug": "fluke",
+    "name": "Fluke",
+    "logo": { "src": "/images/brands/brand-fluke-600x200.webp", "alt": "Fluke", "width": 600, "height": 200 },
+    "isOwnBrand": false,
+    "order": 6
+  },
+  {
+    "id": "esab",
+    "slug": "esab",
+    "name": "ESAB",
+    "logo": { "src": "/images/brands/brand-esab-600x200.webp", "alt": "ESAB", "width": 600, "height": 200 },
+    "isOwnBrand": false,
+    "order": 7
+  },
+  {
+    "id": "matrix",
+    "slug": "matrix",
+    "name": "Matrix",
+    "logo": { "src": "/images/brands/brand-matrix-600x200.webp", "alt": "Matrix", "width": 600, "height": 200 },
+    "isOwnBrand": false,
+    "order": 8
+  },
+  {
+    "id": "mystar",
+    "slug": "mystar",
+    "name": "Mystar",
+    "logo": { "src": "/images/brands/brand-mystar-600x200.webp", "alt": "Mystar", "width": 600, "height": 200 },
+    "isOwnBrand": false,
+    "order": 9
+  }
+]

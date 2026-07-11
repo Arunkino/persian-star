@@ -1,0 +1,561 @@
+[
+  {
+    "id": "vipex-ag2200",
+    "slug": "vipex-angle-grinder-ag2200",
+    "name": "VIPEX AG2200 Angle Grinder",
+    "brandId": "vipex",
+    "categoryId": "power-tools",
+    "shortDescription": "2200 W, 180 mm professional angle grinder with anti-vibration handle and restart protection.",
+    "description": "The AG2200 is built for continuous cutting and grinding on site. A 2200 W motor drives 180 mm discs through concrete, steel, and stone, while a slim body and anti-vibration side handle keep control through long shifts. Constant electronics hold speed under load, and a re-start protection circuit prevents surprise starts after a power cut.",
+    "images": [
+      { "src": "/images/products/product-vipex-angle-grinder-ag2200-1200x1200.webp", "alt": "VIPEX AG2200 angle grinder", "width": 1200, "height": 1200 },
+      { "src": "/images/products/product-vipex-angle-grinder-ag2200-alt-1200x1200.webp", "alt": "VIPEX AG2200 angle grinder, side view", "width": 1200, "height": 1200 }
+    ],
+    "keySpecs": [
+      { "label": "Power", "value": "2200", "unit": "W" },
+      { "label": "Disc", "value": "180", "unit": "mm" },
+      { "label": "No-load speed", "value": "8500", "unit": "RPM" }
+    ],
+    "specGroups": [
+      {
+        "title": "Performance",
+        "specs": [
+          { "label": "Rated power", "value": "2200", "unit": "W" },
+          { "label": "No-load speed", "value": "8500", "unit": "RPM" },
+          { "label": "Disc diameter", "value": "180", "unit": "mm" },
+          { "label": "Spindle thread", "value": "M14" }
+        ]
+      },
+      {
+        "title": "Handling",
+        "specs": [
+          { "label": "Weight", "value": "5.1", "unit": "kg" },
+          { "label": "Cable length", "value": "4.0", "unit": "m" },
+          { "label": "Vibration", "value": "5.5", "unit": "m/s²" }
+        ]
+      }
+    ],
+    "features": [
+      "Constant-speed electronics maintain RPM under load",
+      "Restart protection after power interruption",
+      "Anti-vibration side handle",
+      "Tool-free guard adjustment"
+    ],
+    "tags": ["corded", "grinding", "cutting", "180mm"],
+    "sku": "VPX-AG-2200",
+    "featured": true
+  },
+  {
+    "id": "vipex-dd18",
+    "slug": "vipex-cordless-drill-driver-dd18",
+    "name": "VIPEX DD18 Cordless Drill Driver",
+    "brandId": "vipex",
+    "categoryId": "power-tools",
+    "shortDescription": "18 V brushless drill driver with 65 Nm torque and a two-speed metal gearbox.",
+    "description": "A brushless 18 V platform that delivers 65 Nm of torque and runs cooler for longer life. The two-speed all-metal gearbox handles everything from fine driving to 13 mm masonry pilots, and a 21-stage clutch protects the work. Sold as a bare tool or with the VIPEX 18 V battery system.",
+    "images": [
+      { "src": "/images/products/product-vipex-cordless-drill-driver-dd18-1200x1200.webp", "alt": "VIPEX DD18 cordless drill driver", "width": 1200, "height": 1200 },
+      { "src": "/images/products/product-vipex-cordless-drill-driver-dd18-alt-1200x1200.webp", "alt": "VIPEX DD18 drill driver with battery", "width": 1200, "height": 1200 }
+    ],
+    "keySpecs": [
+      { "label": "Voltage", "value": "18", "unit": "V" },
+      { "label": "Max torque", "value": "65", "unit": "Nm" },
+      { "label": "Chuck", "value": "13", "unit": "mm" }
+    ],
+    "specGroups": [
+      {
+        "title": "Performance",
+        "specs": [
+          { "label": "Voltage", "value": "18", "unit": "V" },
+          { "label": "Max torque", "value": "65", "unit": "Nm" },
+          { "label": "Speed (low / high)", "value": "0–550 / 0–2000", "unit": "RPM" },
+          { "label": "Clutch settings", "value": "21 + drill" }
+        ]
+      },
+      {
+        "title": "Build",
+        "specs": [
+          { "label": "Motor", "value": "Brushless" },
+          { "label": "Chuck", "value": "13", "unit": "mm" },
+          { "label": "Weight (bare)", "value": "1.3", "unit": "kg" }
+        ]
+      }
+    ],
+    "features": [
+      "Brushless motor for longer runtime and life",
+      "Two-speed all-metal gearbox",
+      "21-stage torque clutch",
+      "LED work light with delay-off"
+    ],
+    "tags": ["cordless", "18v", "brushless", "drilling"],
+    "sku": "VPX-DD-18",
+    "featured": true
+  },
+  {
+    "id": "vipex-rh26",
+    "slug": "vipex-rotary-hammer-rh26",
+    "name": "VIPEX RH26 SDS-Plus Rotary Hammer",
+    "brandId": "vipex",
+    "categoryId": "power-tools",
+    "shortDescription": "800 W SDS-Plus rotary hammer with 2.8 J impact energy and three operating modes.",
+    "description": "A 26 mm SDS-Plus hammer for anchoring, drilling, and light chiselling. 2.8 J of impact energy clears holes fast, and the three-mode selector switches between rotary, hammer-drill, and chisel. A safety clutch protects the operator when the bit binds.",
+    "images": [
+      { "src": "/images/products/product-vipex-rotary-hammer-rh26-1200x1200.webp", "alt": "VIPEX RH26 rotary hammer", "width": 1200, "height": 1200 }
+    ],
+    "keySpecs": [
+      { "label": "Power", "value": "800", "unit": "W" },
+      { "label": "Impact energy", "value": "2.8", "unit": "J" },
+      { "label": "Max drill (concrete)", "value": "26", "unit": "mm" }
+    ],
+    "specGroups": [
+      {
+        "title": "Performance",
+        "specs": [
+          { "label": "Rated power", "value": "800", "unit": "W" },
+          { "label": "Impact energy", "value": "2.8", "unit": "J" },
+          { "label": "Impact rate", "value": "4500", "unit": "bpm" },
+          { "label": "Modes", "value": "Rotary / Hammer / Chisel" }
+        ]
+      }
+    ],
+    "features": [
+      "Three operating modes",
+      "SDS-Plus tool-free bit change",
+      "Safety clutch",
+      "Reversible for fastening"
+    ],
+    "tags": ["corded", "sds-plus", "drilling", "chiselling"],
+    "sku": "VPX-RH-26"
+  },
+  {
+    "id": "makita-ga9020",
+    "slug": "makita-angle-grinder-ga9020",
+    "name": "Makita GA9020 Angle Grinder",
+    "brandId": "makita",
+    "categoryId": "power-tools",
+    "shortDescription": "2200 W 230 mm angle grinder with labyrinth construction for dust resistance.",
+    "description": "Makita's 230 mm grinder pairs a 2200 W motor with labyrinth construction that seals the motor and bearings against dust. A large paddle switch and side handle give confident two-handed control for heavy cutting and grinding.",
+    "images": [
+      { "src": "/images/products/product-makita-angle-grinder-ga9020-1200x1200.webp", "alt": "Makita GA9020 angle grinder", "width": 1200, "height": 1200 }
+    ],
+    "keySpecs": [
+      { "label": "Power", "value": "2200", "unit": "W" },
+      { "label": "Disc", "value": "230", "unit": "mm" },
+      { "label": "No-load speed", "value": "6600", "unit": "RPM" }
+    ],
+    "specGroups": [
+      {
+        "title": "Performance",
+        "specs": [
+          { "label": "Rated power", "value": "2200", "unit": "W" },
+          { "label": "Disc diameter", "value": "230", "unit": "mm" },
+          { "label": "No-load speed", "value": "6600", "unit": "RPM" },
+          { "label": "Spindle thread", "value": "M14" }
+        ]
+      }
+    ],
+    "features": [
+      "Labyrinth construction seals out dust",
+      "Large paddle switch",
+      "SJS clutch protects the gears"
+    ],
+    "tags": ["corded", "grinding", "cutting", "230mm"],
+    "sku": "MAK-GA-9020"
+  },
+  {
+    "id": "bosch-gdx18v",
+    "slug": "bosch-impact-driver-gdx18v",
+    "name": "Bosch GDX 18V Impact Driver",
+    "brandId": "bosch",
+    "categoryId": "power-tools",
+    "shortDescription": "18 V brushless impact driver with dual ¼\" hex and ½\" square drive.",
+    "description": "The GDX combines a ¼\" hex bit holder and a ½\" square drive in one head, so it drives screws and runs sockets without an adaptor. A brushless motor delivers up to 200 Nm for fasteners the size of the job.",
+    "images": [
+      { "src": "/images/products/product-bosch-impact-driver-gdx18v-1200x1200.webp", "alt": "Bosch GDX 18V impact driver", "width": 1200, "height": 1200 }
+    ],
+    "keySpecs": [
+      { "label": "Voltage", "value": "18", "unit": "V" },
+      { "label": "Max torque", "value": "200", "unit": "Nm" },
+      { "label": "Drive", "value": "¼\" + ½\"" }
+    ],
+    "specGroups": [
+      {
+        "title": "Performance",
+        "specs": [
+          { "label": "Voltage", "value": "18", "unit": "V" },
+          { "label": "Max torque", "value": "200", "unit": "Nm" },
+          { "label": "Impact rate", "value": "3400", "unit": "bpm" },
+          { "label": "Motor", "value": "Brushless" }
+        ]
+      }
+    ],
+    "features": [
+      "Dual ¼\" hex and ½\" square drive",
+      "Brushless EC motor",
+      "Compact head length"
+    ],
+    "tags": ["cordless", "18v", "brushless", "impact"],
+    "sku": "BOS-GDX-18",
+    "featured": true
+  },
+  {
+    "id": "dewalt-dcs570",
+    "slug": "dewalt-circular-saw-dcs570",
+    "name": "DeWalt DCS570 Circular Saw",
+    "brandId": "dewalt",
+    "categoryId": "power-tools",
+    "shortDescription": "18 V brushless 184 mm circular saw with 65 mm cut depth.",
+    "description": "A cordless 184 mm saw that cuts to 65 mm at 90°, with a brushless motor for corded-like performance. An electric brake stops the blade fast, and the cast shoe keeps cuts true.",
+    "images": [
+      { "src": "/images/products/product-dewalt-circular-saw-dcs570-1200x1200.webp", "alt": "DeWalt DCS570 circular saw", "width": 1200, "height": 1200 }
+    ],
+    "keySpecs": [
+      { "label": "Blade", "value": "184", "unit": "mm" },
+      { "label": "Cut depth (90°)", "value": "65", "unit": "mm" },
+      { "label": "Speed", "value": "5200", "unit": "RPM" }
+    ],
+    "specGroups": [
+      {
+        "title": "Performance",
+        "specs": [
+          { "label": "Blade diameter", "value": "184", "unit": "mm" },
+          { "label": "Cut depth 90°", "value": "65", "unit": "mm" },
+          { "label": "Cut depth 45°", "value": "49", "unit": "mm" },
+          { "label": "No-load speed", "value": "5200", "unit": "RPM" }
+        ]
+      }
+    ],
+    "features": [
+      "Brushless motor",
+      "Electric blade brake",
+      "Cast aluminium shoe"
+    ],
+    "tags": ["cordless", "18v", "brushless", "cutting"],
+    "sku": "DEW-DCS-570"
+  },
+  {
+    "id": "vipex-cws-24",
+    "slug": "vipex-combination-wrench-set-24",
+    "name": "VIPEX 24-Piece Combination Wrench Set",
+    "brandId": "vipex",
+    "categoryId": "hand-tools",
+    "shortDescription": "Chrome-vanadium combination wrenches, 6–32 mm, in a roll-up organiser.",
+    "description": "A complete metric set forged from chrome-vanadium steel and mirror-polished. Each wrench pairs an open end with a 12-point ring offset at 15° for knuckle clearance. Supplied in a roll-up organiser that lays flat in the box.",
+    "images": [
+      { "src": "/images/products/product-vipex-combination-wrench-set-24-1200x1200.webp", "alt": "VIPEX 24-piece combination wrench set", "width": 1200, "height": 1200 },
+      { "src": "/images/products/product-vipex-combination-wrench-set-24-alt-1200x1200.webp", "alt": "VIPEX wrench set in organiser", "width": 1200, "height": 1200 }
+    ],
+    "keySpecs": [
+      { "label": "Pieces", "value": "24" },
+      { "label": "Range", "value": "6–32", "unit": "mm" },
+      { "label": "Material", "value": "Cr-V" }
+    ],
+    "specGroups": [
+      {
+        "title": "Specification",
+        "specs": [
+          { "label": "Pieces", "value": "24" },
+          { "label": "Size range", "value": "6–32", "unit": "mm" },
+          { "label": "Material", "value": "Chrome-vanadium steel" },
+          { "label": "Ring offset", "value": "15", "unit": "°" },
+          { "label": "Finish", "value": "Mirror polished" }
+        ]
+      }
+    ],
+    "features": [
+      "Forged chrome-vanadium steel",
+      "12-point ring end, 15° offset",
+      "Roll-up organiser included",
+      "Laser-etched sizing"
+    ],
+    "tags": ["metric", "wrench", "set", "cr-v"],
+    "sku": "VPX-CWS-24",
+    "featured": true
+  },
+  {
+    "id": "knipex-cobra",
+    "slug": "knipex-cobra-water-pump-pliers",
+    "name": "Knipex Cobra Water Pump Pliers",
+    "brandId": "knipex",
+    "categoryId": "hand-tools",
+    "shortDescription": "250 mm push-button adjustable pliers with self-locking jaws.",
+    "description": "The Cobra's push-button adjustment sets the jaw to the work in one motion, and the self-locking teeth grip without slipping. A slim head reaches into tight assemblies, and the box joint resists spreading under load.",
+    "images": [
+      { "src": "/images/products/product-knipex-cobra-water-pump-pliers-1200x1200.webp", "alt": "Knipex Cobra water pump pliers", "width": 1200, "height": 1200 }
+    ],
+    "keySpecs": [
+      { "label": "Length", "value": "250", "unit": "mm" },
+      { "label": "Capacity", "value": "50", "unit": "mm" },
+      { "label": "Positions", "value": "25" }
+    ],
+    "specGroups": [
+      {
+        "title": "Specification",
+        "specs": [
+          { "label": "Length", "value": "250", "unit": "mm" },
+          { "label": "Grip capacity", "value": "50", "unit": "mm" },
+          { "label": "Adjustment positions", "value": "25" },
+          { "label": "Material", "value": "Chrome-vanadium steel" }
+        ]
+      }
+    ],
+    "features": [
+      "One-handed push-button adjustment",
+      "Self-locking on pipes and nuts",
+      "Slim head for tight access"
+    ],
+    "tags": ["pliers", "adjustable", "plumbing"],
+    "sku": "KNP-COBRA-250"
+  },
+  {
+    "id": "stanley-fatmax-hammer",
+    "slug": "stanley-fatmax-claw-hammer",
+    "name": "Stanley FatMax Claw Hammer",
+    "brandId": "stanley",
+    "categoryId": "hand-tools",
+    "shortDescription": "20 oz anti-vibration claw hammer with one-piece forged steel body.",
+    "description": "A one-piece forged hammer that puts the head, handle, and claw in a single piece of steel for durability, with an anti-vibration grip that cuts shock to the hand. The rim-tempered face resists chipping.",
+    "images": [
+      { "src": "/images/products/product-stanley-fatmax-claw-hammer-1200x1200.webp", "alt": "Stanley FatMax claw hammer", "width": 1200, "height": 1200 }
+    ],
+    "keySpecs": [
+      { "label": "Weight", "value": "20", "unit": "oz" },
+      { "label": "Body", "value": "One-piece" },
+      { "label": "Face", "value": "Rim-tempered" }
+    ],
+    "specGroups": [
+      {
+        "title": "Specification",
+        "specs": [
+          { "label": "Head weight", "value": "20", "unit": "oz" },
+          { "label": "Construction", "value": "One-piece forged steel" },
+          { "label": "Grip", "value": "Anti-vibration" }
+        ]
+      }
+    ],
+    "features": [
+      "One-piece forged construction",
+      "Anti-vibration grip",
+      "Rim-tempered face"
+    ],
+    "tags": ["hammer", "striking"],
+    "sku": "STN-FM-20"
+  },
+  {
+    "id": "esab-mig215",
+    "slug": "esab-rebel-mig-215",
+    "name": "ESAB Rebel EMP 215ic Welder",
+    "brandId": "esab",
+    "categoryId": "welding-cutting",
+    "shortDescription": "Multi-process MIG/TIG/MMA inverter, 5–240 A, with sMIG adaptive control.",
+    "description": "A portable multi-process inverter that switches between MIG, flux-cored, TIG, and stick. sMIG adaptive control learns the operator's hand and smooths the arc, and a full-colour TFT guides setup. Runs on 120 V or 230 V.",
+    "images": [
+      { "src": "/images/products/product-esab-rebel-mig-215-1200x1200.webp", "alt": "ESAB Rebel EMP 215ic welder", "width": 1200, "height": 1200 }
+    ],
+    "keySpecs": [
+      { "label": "Output", "value": "5–240", "unit": "A" },
+      { "label": "Processes", "value": "MIG/TIG/MMA" },
+      { "label": "Input", "value": "120/230", "unit": "V" }
+    ],
+    "specGroups": [
+      {
+        "title": "Performance",
+        "specs": [
+          { "label": "Output range", "value": "5–240", "unit": "A" },
+          { "label": "Processes", "value": "MIG, flux-cored, TIG, MMA" },
+          { "label": "Input voltage", "value": "120 / 230", "unit": "V" },
+          { "label": "Duty cycle (205 A)", "value": "30", "unit": "%" }
+        ]
+      }
+    ],
+    "features": [
+      "Multi-process MIG / TIG / MMA",
+      "sMIG adaptive arc control",
+      "Colour TFT interface",
+      "Dual-voltage input"
+    ],
+    "tags": ["welding", "mig", "tig", "inverter"],
+    "sku": "ESB-EMP-215"
+  },
+  {
+    "id": "vipex-cut45",
+    "slug": "vipex-plasma-cutter-cut45",
+    "name": "VIPEX CUT45 Plasma Cutter",
+    "brandId": "vipex",
+    "categoryId": "welding-cutting",
+    "shortDescription": "45 A inverter plasma cutter with 12 mm clean cut and pilot-arc torch.",
+    "description": "A compact 45 A inverter that cleanly severs 12 mm steel and pierces without touching the work, thanks to a pilot-arc torch that also handles painted and rusty stock. Built-in air regulation keeps the arc stable across the plate.",
+    "images": [
+      { "src": "/images/products/product-vipex-plasma-cutter-cut45-1200x1200.webp", "alt": "VIPEX CUT45 plasma cutter", "width": 1200, "height": 1200 }
+    ],
+    "keySpecs": [
+      { "label": "Output", "value": "45", "unit": "A" },
+      { "label": "Clean cut", "value": "12", "unit": "mm" },
+      { "label": "Torch", "value": "Pilot-arc" }
+    ],
+    "specGroups": [
+      {
+        "title": "Performance",
+        "specs": [
+          { "label": "Output current", "value": "45", "unit": "A" },
+          { "label": "Clean cut thickness", "value": "12", "unit": "mm" },
+          { "label": "Severance cut", "value": "16", "unit": "mm" },
+          { "label": "Duty cycle (45 A)", "value": "60", "unit": "%" }
+        ]
+      }
+    ],
+    "features": [
+      "Pilot-arc cuts painted and rusty stock",
+      "Non-touch piercing",
+      "Integrated air regulation",
+      "Lightweight inverter design"
+    ],
+    "tags": ["plasma", "cutting", "inverter"],
+    "sku": "VPX-CUT-45"
+  },
+  {
+    "id": "fluke-117",
+    "slug": "fluke-117-multimeter",
+    "name": "Fluke 117 Digital Multimeter",
+    "brandId": "fluke",
+    "categoryId": "measuring-testing",
+    "shortDescription": "True-RMS electrician's multimeter with non-contact voltage detection.",
+    "description": "A True-RMS meter tuned for electricians, with built-in non-contact voltage detection and a LoZ input that rejects ghost voltages. AutoV/LoZ, a bright display, and a compact body make it a daily-carry meter.",
+    "images": [
+      { "src": "/images/products/product-fluke-117-multimeter-1200x1200.webp", "alt": "Fluke 117 digital multimeter", "width": 1200, "height": 1200 }
+    ],
+    "keySpecs": [
+      { "label": "Reading", "value": "True-RMS" },
+      { "label": "Voltage", "value": "600", "unit": "V" },
+      { "label": "NCV", "value": "Built-in" }
+    ],
+    "specGroups": [
+      {
+        "title": "Specification",
+        "specs": [
+          { "label": "Measurement", "value": "True-RMS" },
+          { "label": "Max voltage", "value": "600", "unit": "V AC/DC" },
+          { "label": "Non-contact voltage", "value": "Built-in" },
+          { "label": "Safety rating", "value": "CAT III 600 V" }
+        ]
+      }
+    ],
+    "features": [
+      "True-RMS for accurate readings",
+      "Non-contact voltage detection",
+      "AutoV/LoZ rejects ghost voltage",
+      "CAT III 600 V rated"
+    ],
+    "tags": ["multimeter", "electrical", "true-rms"],
+    "sku": "FLK-117",
+    "featured": true
+  },
+  {
+    "id": "vipex-ll360",
+    "slug": "vipex-laser-level-ll360",
+    "name": "VIPEX LL360 Green Laser Level",
+    "brandId": "vipex",
+    "categoryId": "measuring-testing",
+    "shortDescription": "Self-levelling 360° green cross-line laser with 30 m range.",
+    "description": "A green-beam cross-line laser that projects a full 360° horizontal plane plus a vertical line, self-levelling within 4°. Green diodes read up to four times brighter than red indoors, and the pendant locks for transport.",
+    "images": [
+      { "src": "/images/products/product-vipex-laser-level-ll360-1200x1200.webp", "alt": "VIPEX LL360 laser level", "width": 1200, "height": 1200 }
+    ],
+    "keySpecs": [
+      { "label": "Range", "value": "30", "unit": "m" },
+      { "label": "Accuracy", "value": "±0.2", "unit": "mm/m" },
+      { "label": "Beam", "value": "Green" }
+    ],
+    "specGroups": [
+      {
+        "title": "Specification",
+        "specs": [
+          { "label": "Working range", "value": "30", "unit": "m" },
+          { "label": "Accuracy", "value": "±0.2", "unit": "mm/m" },
+          { "label": "Self-levelling range", "value": "±4", "unit": "°" },
+          { "label": "Beam colour", "value": "Green" }
+        ]
+      }
+    ],
+    "features": [
+      "360° horizontal + vertical lines",
+      "Bright green diodes",
+      "Self-levelling with lock",
+      "Tripod thread on base"
+    ],
+    "tags": ["laser", "level", "green"],
+    "sku": "VPX-LL-360"
+  },
+  {
+    "id": "vipex-helmet-pro",
+    "slug": "vipex-safety-helmet-pro",
+    "name": "VIPEX Safety Helmet Pro",
+    "brandId": "vipex",
+    "categoryId": "safety",
+    "shortDescription": "Vented industrial safety helmet with 6-point harness and wheel ratchet.",
+    "description": "An ABS-shell helmet with a 6-point harness that spreads load and a wheel ratchet for a precise fit over long shifts. Vents move air without compromising the rating, and accessory slots take ear defenders and visors.",
+    "images": [
+      { "src": "/images/products/product-vipex-safety-helmet-pro-1200x1200.webp", "alt": "VIPEX Safety Helmet Pro", "width": 1200, "height": 1200 }
+    ],
+    "keySpecs": [
+      { "label": "Shell", "value": "ABS" },
+      { "label": "Harness", "value": "6-point" },
+      { "label": "Standard", "value": "EN 397" }
+    ],
+    "specGroups": [
+      {
+        "title": "Specification",
+        "specs": [
+          { "label": "Shell material", "value": "ABS" },
+          { "label": "Harness", "value": "6-point textile" },
+          { "label": "Adjustment", "value": "Wheel ratchet" },
+          { "label": "Standard", "value": "EN 397" }
+        ]
+      }
+    ],
+    "features": [
+      "6-point harness spreads impact load",
+      "Wheel ratchet fit adjustment",
+      "Accessory slots for defenders and visors",
+      "Ventilated ABS shell"
+    ],
+    "tags": ["ppe", "helmet", "head-protection"],
+    "sku": "VPX-HLM-PRO"
+  },
+  {
+    "id": "matrix-cutting-disc",
+    "slug": "matrix-cutting-disc-set-115",
+    "name": "Matrix 115 mm Cutting Disc Set",
+    "brandId": "matrix",
+    "categoryId": "fasteners-abrasives",
+    "shortDescription": "25-pack of 115 mm ultra-thin metal cutting discs, 1.0 mm kerf.",
+    "description": "Ultra-thin 1.0 mm discs that cut fast with minimal burr and material loss. Reinforced with two fibreglass layers for safe use up to 13,300 RPM on 115 mm grinders.",
+    "images": [
+      { "src": "/images/products/product-matrix-cutting-disc-set-115-1200x1200.webp", "alt": "Matrix 115 mm cutting disc set", "width": 1200, "height": 1200 }
+    ],
+    "keySpecs": [
+      { "label": "Diameter", "value": "115", "unit": "mm" },
+      { "label": "Kerf", "value": "1.0", "unit": "mm" },
+      { "label": "Pack", "value": "25" }
+    ],
+    "specGroups": [
+      {
+        "title": "Specification",
+        "specs": [
+          { "label": "Diameter", "value": "115", "unit": "mm" },
+          { "label": "Thickness", "value": "1.0", "unit": "mm" },
+          { "label": "Bore", "value": "22.23", "unit": "mm" },
+          { "label": "Max speed", "value": "13300", "unit": "RPM" },
+          { "label": "Pack quantity", "value": "25" }
+        ]
+      }
+    ],
+    "features": [
+      "Ultra-thin 1.0 mm kerf",
+      "Double fibreglass reinforcement",
+      "Fast, low-burr cutting on steel"
+    ],
+    "tags": ["abrasive", "cutting-disc", "115mm", "metal"],
+    "sku": "MTX-CD-115-25"
+  }
+]

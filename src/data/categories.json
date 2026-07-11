@@ -1,0 +1,72 @@
+[
+  {
+    "id": "power-tools",
+    "slug": "power-tools",
+    "name": "Power Tools",
+    "tagline": "Corded & cordless muscle.",
+    "description": "Angle grinders, drills, drivers, and rotary hammers built for continuous jobsite duty.",
+    "image": { "src": "/images/categories/category-power-tools-800x800.webp", "alt": "Power tools", "width": 800, "height": 800 },
+    "icon": "Drill",
+    "order": 0
+  },
+  {
+    "id": "hand-tools",
+    "slug": "hand-tools",
+    "name": "Hand Tools",
+    "tagline": "Precision in the hand.",
+    "description": "Pliers, wrenches, hammers, and screwdrivers forged for grip, balance, and durability.",
+    "image": { "src": "/images/categories/category-hand-tools-800x800.webp", "alt": "Hand tools", "width": 800, "height": 800 },
+    "icon": "Wrench",
+    "order": 1
+  },
+  {
+    "id": "welding-cutting",
+    "slug": "welding-cutting",
+    "name": "Welding & Cutting",
+    "tagline": "Heat, controlled.",
+    "description": "Welding machines, plasma cutters, electrodes, and protective gear for fabrication work.",
+    "image": { "src": "/images/categories/category-welding-cutting-800x800.webp", "alt": "Welding and cutting", "width": 800, "height": 800 },
+    "icon": "Flame",
+    "order": 2
+  },
+  {
+    "id": "measuring-testing",
+    "slug": "measuring-testing",
+    "name": "Measuring & Testing",
+    "tagline": "Numbers you can trust.",
+    "description": "Multimeters, laser levels, thermal tools, and calipers for accurate, repeatable readings.",
+    "image": { "src": "/images/categories/category-measuring-testing-800x800.webp", "alt": "Measuring and testing", "width": 800, "height": 800 },
+    "icon": "Gauge",
+    "order": 3
+  },
+  {
+    "id": "safety",
+    "slug": "safety",
+    "name": "Safety & PPE",
+    "tagline": "Everyone goes home.",
+    "description": "Helmets, gloves, eyewear, and hearing protection rated for industrial environments.",
+    "image": { "src": "/images/categories/category-safety-800x800.webp", "alt": "Safety and PPE", "width": 800, "height": 800 },
+    "icon": "HardHat",
+    "order": 4
+  },
+  {
+    "id": "fasteners-abrasives",
+    "slug": "fasteners-abrasives",
+    "name": "Fasteners & Abrasives",
+    "tagline": "Hold. Grind. Finish.",
+    "description": "Anchors, bolts, cutting discs, and abrasives sized for every substrate.",
+    "image": { "src": "/images/categories/category-fasteners-abrasives-800x800.webp", "alt": "Fasteners and abrasives", "width": 800, "height": 800 },
+    "icon": "Bolt",
+    "order": 5
+  },
+  {
+    "id": "accessories",
+    "slug": "accessories",
+    "name": "Accessories",
+    "tagline": "The right bit for the job.",
+    "description": "Drill bits, blades, batteries, and storage that keep the whole kit running.",
+    "image": { "src": "/images/categories/category-accessories-800x800.webp", "alt": "Accessories", "width": 800, "height": 800 },
+    "icon": "Package",
+    "order": 6
+  }
+]
