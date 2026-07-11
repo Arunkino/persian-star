@@ -8,6 +8,7 @@ import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { EnquiryButtons } from "@/components/enquiry/enquiry-buttons";
 import { StatBlock, type Stat } from "@/components/common/stat-block";
+import { SparkFrame } from "@/components/sections/spark-frame";
 import { routes } from "@/lib/routes";
 import { easeMachined } from "@/lib/motion";
 
@@ -56,7 +57,7 @@ export function Hero() {
             transition={{ duration: 0.5, ease: easeMachined }}
             className="eyebrow text-white/60"
           >
-            VIPEX · Persian Star — UAE
+            Persian Star · Building Hardware &amp; Tools · UAE
           </motion.p>
 
           <motion.h1
@@ -77,9 +78,10 @@ export function Hero() {
             transition={{ duration: 0.7, ease: easeMachined, delay: 0.15 }}
             className="mt-6 max-w-lg text-base leading-relaxed text-white/70 sm:text-lg"
           >
-            VIPEX professional tools — engineered for the jobsite and supplied
-            alongside the brands the trade already trusts. Browse the catalogue,
-            check the specs, and enquire in one message.
+            From <span className="font-semibold text-white">VIPEX</span> — our
+            own brand — to Makita, Bosch, and DeWalt: professional tools for
+            every trade, supplied across the UAE. Check the specs and enquire
+            in one message.
           </motion.p>
 
           <motion.div
@@ -116,6 +118,8 @@ export function Hero() {
           transition={{ duration: 0.9, ease: easeMachined, delay: 0.1 }}
           className="relative"
         >
+          {/* Plasma-cutter effect tracing the frame */}
+          <SparkFrame className="-inset-12 z-10" inset={48} radius={12} />
           <div className="relative aspect-[4/5] overflow-hidden rounded-xl border border-white/10 bg-graphite">
             <motion.div style={{ y: imageY }} className="absolute inset-0">
               <Image

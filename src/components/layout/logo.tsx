@@ -1,73 +1,68 @@
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 
+type Subtitle = "full" | "short" | "none";
+
 /**
- * VIPEX lockup: a chamfered 4-point star mark (nod to "Persian Star") + a
- * modernized grotesque wordmark. Placeholder for the real vector logo —
- * swap the <svg> and keep the layout. `tone` adapts it to dark sections.
+ * Persian Star lockup, rebuilt as live text + vector so it stays crisp at any
+ * size: PERSI★NSTAR — the red five-point star stands in for the "A", echoing
+ * the company logo — over a mono descriptor line. Swap for the real vector
+ * artwork anytime; keep the layout.
  */
 export function Logo({
   className,
   tone = "default",
-  showParent = false,
+  subtitle = "short",
 }: {
   className?: string;
   tone?: "default" | "onDark";
-  showParent?: boolean;
+  subtitle?: Subtitle;
 }) {
   const fg = tone === "onDark" ? "text-white" : "text-foreground";
+  const sub = tone === "onDark" ? "text-white/50" : "text-muted-foreground";
+
   return (
     <Link
       href="/"
-      aria-label="VIPEX — Persian Star, home"
-      className={cn("group inline-flex items-center gap-2.5", className)}
+      aria-label="Persian Star — home"
+      className={cn("group inline-flex flex-col leading-none", className)}
     >
-      <StarMark className="size-7 shrink-0" />
-      <span className="flex flex-col leading-none">
+      <span
+        className={cn(
+          "flex items-center font-display text-lg font-extrabold uppercase tracking-[0.03em] md:text-xl",
+          fg,
+        )}
+      >
+        Persi
+        <StarGlyph className="mx-[0.03em] size-[0.82em] text-vipex" />
+        nstar
+      </span>
+      {subtitle !== "none" && (
         <span
           className={cn(
-            "font-display text-xl font-extrabold uppercase tracking-[0.14em]",
-            fg,
+            "mt-1.5 font-mono text-[0.55rem] uppercase tracking-[0.24em]",
+            sub,
           )}
         >
-          VIPEX
+          {subtitle === "full"
+            ? "Building Hardware & Tools Trading L.L.C"
+            : "Building Hardware & Tools"}
         </span>
-        {showParent && (
-          <span
-            className={cn(
-              "mt-1 font-mono text-[0.6rem] uppercase tracking-[0.2em]",
-              tone === "onDark" ? "text-white/50" : "text-muted-foreground",
-            )}
-          >
-            Persian Star
-          </span>
-        )}
-      </span>
+      )}
     </Link>
   );
 }
 
-function StarMark({ className }: { className?: string }) {
+/** Five-point star — the "A" of the Persian Star wordmark. */
+export function StarGlyph({ className }: { className?: string }) {
   return (
     <svg
-      viewBox="0 0 32 32"
+      viewBox="0 0 24 24"
       aria-hidden="true"
       className={className}
-      fill="none"
+      fill="currentColor"
     >
-      <rect
-        x="1"
-        y="1"
-        width="30"
-        height="30"
-        rx="6"
-        className="fill-obsidian"
-      />
-      {/* Chamfered 4-point star */}
-      <path
-        d="M16 5 L18.6 13.4 L27 16 L18.6 18.6 L16 27 L13.4 18.6 L5 16 L13.4 13.4 Z"
-        className="fill-vipex"
-      />
+      <polygon points="12,1 14.59,8.44 22.46,8.6 16.19,13.36 18.47,20.9 12,16.4 5.53,20.9 7.81,13.36 1.54,8.6 9.41,8.44" />
     </svg>
   );
 }

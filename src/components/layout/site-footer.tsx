@@ -28,7 +28,7 @@ export function SiteFooter() {
       {/* Link grid */}
       <div className="container-shell grid gap-10 py-14 md:grid-cols-[1.4fr_1fr_1fr_1.2fr]">
         <div>
-          <Logo tone="onDark" showParent />
+          <Logo tone="onDark" subtitle="full" />
           <p className="mt-5 max-w-xs text-sm leading-relaxed text-white/60">
             {site.description}
           </p>
@@ -89,9 +89,14 @@ export function SiteFooter() {
       {/* Legal bar */}
       <div className="border-t border-white/10">
         <div className="container-shell flex flex-col gap-3 py-6 text-xs text-white/40 sm:flex-row sm:items-center sm:justify-between">
-          <p>
-            © {year} {site.legalName}
-          </p>
+          <div className="flex flex-col gap-1.5">
+            <p>
+              © {year} {site.legalName}
+            </p>
+            <p dir="rtl" lang="ar" className="text-right sm:text-left">
+              {site.legalNameAr}
+            </p>
+          </div>
           <div className="flex items-center gap-5">
             {site.socials.map((s) => (
               <a

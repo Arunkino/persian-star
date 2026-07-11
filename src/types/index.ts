@@ -80,6 +80,8 @@ export interface ResolvedProduct extends Product {
 export interface SiteConfig {
   companyName: string;
   legalName: string;
+  /** Arabic legal name, as registered (shown in the footer). */
+  legalNameAr: string;
   brandName: string;
   tagline: string;
   description: string;

@@ -33,7 +33,7 @@ for (const p of products) p.images.forEach((img) => push(img, p.name));
 
 // Non-data assets
 assets.push({ src: "/images/hero/hero-vipex-1200x1500.webp", width: 1200, height: 1500, label: "VIPEX" });
-assets.push({ src: "/images/og/og-default-1200x630.webp", width: 1200, height: 630, label: "VIPEX · Persian Star" });
+assets.push({ src: "/images/og/og-default-1200x630.webp", width: 1200, height: 630, label: "PERSIAN STAR · Building Hardware & Tools" });
 assets.push({ src: "/images/contact/map-location-1200x800.webp", width: 1200, height: 800, label: "Map · Dubai, UAE" });
 
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;");

@@ -28,15 +28,32 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: `${site.brandName} — ${site.legalName}`,
-    template: `%s · ${site.brandName}`,
+    default: site.legalName,
+    template: `%s · ${site.companyName}`,
   },
   description: site.description,
+  keywords: [
+    "building hardware",
+    "industrial tools",
+    "power tools",
+    "hand tools",
+    "VIPEX",
+    "tools supplier UAE",
+    "Dubai",
+  ],
   openGraph: {
     type: "website",
-    title: `${site.brandName} — Industrial Tools`,
+    title: `${site.companyName} — Building Hardware & Tools, UAE`,
     description: site.description,
     siteName: site.legalName,
+    images: [
+      {
+        url: "/images/og/og-default-1200x630.webp",
+        width: 1200,
+        height: 630,
+        alt: site.legalName,
+      },
+    ],
   },
   twitter: { card: "summary_large_image" },
 };

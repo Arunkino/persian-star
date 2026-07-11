@@ -17,7 +17,7 @@ export function ProductCard({
     <Link
       href={routes.product(product)}
       className={cn(
-        "group relative flex flex-col overflow-hidden rounded-lg border border-border bg-card transition-colors duration-300 hover:border-foreground/25 focus-visible:border-foreground/25",
+        "group relative flex flex-col overflow-hidden rounded-lg border border-border bg-card transition-[border-color,transform,box-shadow] duration-300 ease-[var(--ease-machined)] hover:-translate-y-1 hover:border-foreground/25 hover:shadow-[0_16px_40px_-20px_rgba(10,10,11,0.35)] focus-visible:border-foreground/25",
         className,
       )}
     >
