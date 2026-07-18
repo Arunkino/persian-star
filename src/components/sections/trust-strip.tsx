@@ -7,7 +7,7 @@ export function TrustStrip() {
     <section className="border-y border-border bg-background py-8">
       <div className="container-shell">
         <p className="eyebrow mb-6 text-center">
-          Our own brand, alongside the names professionals trust
+          Our own brands, alongside the names professionals trust
         </p>
       </div>
       <BrandMarquee brands={brands} />

@@ -3,10 +3,19 @@
     "id": "vipex",
     "slug": "vipex",
     "name": "VIPEX",
-    "logo": { "src": "/images/brands/brand-vipex-600x200.webp", "alt": "VIPEX", "width": 600, "height": 200 },
+    "logo": { "src": "/images/brands/brand-vipex-1600x1271.webp", "alt": "VIPEX", "width": 1600, "height": 1271 },
     "isOwnBrand": true,
     "description": "Our own line of professional-grade tools — engineered to the standards of the trade, without the premium markup. VIPEX is built to work, shift after shift.",
     "order": 0
+  },
+  {
+    "id": "visafe",
+    "slug": "visafe",
+    "name": "ViSafe",
+    "logo": { "src": "/images/brands/brand-visafe-1024x1024.webp", "alt": "ViSafe", "width": 1024, "height": 1024 },
+    "isOwnBrand": true,
+    "description": "Our own safety line — PPE built to the same standard we hold VIPEX to. Safety shoes and helmets today, with the range growing. Safety. Quality. Trust.",
+    "order": 1
   },
   {
     "id": "makita",
@@ -14,7 +23,7 @@
     "name": "Makita",
     "logo": { "src": "/images/brands/brand-makita-600x200.webp", "alt": "Makita", "width": 600, "height": 200 },
     "isOwnBrand": false,
-    "order": 1
+    "order": 2
   },
   {
     "id": "bosch",
@@ -22,7 +31,7 @@
     "name": "Bosch",
     "logo": { "src": "/images/brands/brand-bosch-600x200.webp", "alt": "Bosch", "width": 600, "height": 200 },
     "isOwnBrand": false,
-    "order": 2
+    "order": 3
   },
   {
     "id": "dewalt",
@@ -30,7 +39,7 @@
     "name": "DeWalt",
     "logo": { "src": "/images/brands/brand-dewalt-600x200.webp", "alt": "DeWalt", "width": 600, "height": 200 },
     "isOwnBrand": false,
-    "order": 3
+    "order": 4
   },
   {
     "id": "stanley",
@@ -38,7 +47,7 @@
     "name": "Stanley",
     "logo": { "src": "/images/brands/brand-stanley-600x200.webp", "alt": "Stanley", "width": 600, "height": 200 },
     "isOwnBrand": false,
-    "order": 4
+    "order": 5
   },
   {
     "id": "knipex",
@@ -46,7 +55,7 @@
     "name": "Knipex",
     "logo": { "src": "/images/brands/brand-knipex-600x200.webp", "alt": "Knipex", "width": 600, "height": 200 },
     "isOwnBrand": false,
-    "order": 5
+    "order": 6
   },
   {
     "id": "fluke",
@@ -54,7 +63,7 @@
     "name": "Fluke",
     "logo": { "src": "/images/brands/brand-fluke-600x200.webp", "alt": "Fluke", "width": 600, "height": 200 },
     "isOwnBrand": false,
-    "order": 6
+    "order": 7
   },
   {
     "id": "esab",
@@ -62,7 +71,7 @@
     "name": "ESAB",
     "logo": { "src": "/images/brands/brand-esab-600x200.webp", "alt": "ESAB", "width": 600, "height": 200 },
     "isOwnBrand": false,
-    "order": 7
+    "order": 8
   },
   {
     "id": "matrix",
@@ -70,7 +79,7 @@
     "name": "Matrix",
     "logo": { "src": "/images/brands/brand-matrix-600x200.webp", "alt": "Matrix", "width": 600, "height": 200 },
     "isOwnBrand": false,
-    "order": 8
+    "order": 9
   },
   {
     "id": "mystar",
@@ -78,6 +87,6 @@
     "name": "Mystar",
     "logo": { "src": "/images/brands/brand-mystar-600x200.webp", "alt": "Mystar", "width": 600, "height": 200 },
     "isOwnBrand": false,
-    "order": 9
+    "order": 10
   }
 ]

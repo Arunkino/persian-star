@@ -143,7 +143,7 @@ export function ProductExplorer({
 
       <FilterGroup label="Brand">
         <Chip active={vipexOnly} onClick={() => setVipexOnly((v) => !v)}>
-          VIPEX only
+          Our brands
         </Chip>
         {brands
           .filter((b) => !b.isOwnBrand)

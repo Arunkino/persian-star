@@ -487,15 +487,15 @@
     "sku": "VPX-LL-360"
   },
   {
-    "id": "vipex-helmet-pro",
-    "slug": "vipex-safety-helmet-pro",
-    "name": "VIPEX Safety Helmet Pro",
-    "brandId": "vipex",
+    "id": "visafe-helmet-pro",
+    "slug": "visafe-safety-helmet-pro",
+    "name": "ViSafe Safety Helmet Pro",
+    "brandId": "visafe",
     "categoryId": "safety",
     "shortDescription": "Vented industrial safety helmet with 6-point harness and wheel ratchet.",
     "description": "An ABS-shell helmet with a 6-point harness that spreads load and a wheel ratchet for a precise fit over long shifts. Vents move air without compromising the rating, and accessory slots take ear defenders and visors.",
     "images": [
-      { "src": "/images/products/product-vipex-safety-helmet-pro-1200x1200.webp", "alt": "VIPEX Safety Helmet Pro", "width": 1200, "height": 1200 }
+      { "src": "/images/products/product-visafe-safety-helmet-pro-1200x1200.webp", "alt": "ViSafe Safety Helmet Pro", "width": 1200, "height": 1200 }
     ],
     "keySpecs": [
       { "label": "Shell", "value": "ABS" },
@@ -520,7 +520,46 @@
       "Ventilated ABS shell"
     ],
     "tags": ["ppe", "helmet", "head-protection"],
-    "sku": "VPX-HLM-PRO"
+    "sku": "VSF-HLM-PRO"
+  },
+  {
+    "id": "visafe-shoe-s3",
+    "slug": "visafe-safety-shoe-s3",
+    "name": "ViSafe Safety Shoe S3",
+    "brandId": "visafe",
+    "categoryId": "safety",
+    "shortDescription": "S3-rated safety shoe with steel toe cap, midsole penetration plate, and SRC anti-slip sole.",
+    "description": "A safety shoe built for full shifts on hard ground: steel toe cap rated to 200 J, a penetration-resistant midsole, and a water-resistant upper. The dual-density PU sole is SRC anti-slip rated and cushions heel strike, while the padded collar and breathable lining keep it wearable in Gulf heat.",
+    "images": [
+      { "src": "/images/products/product-visafe-safety-shoe-s3-1200x1200.webp", "alt": "ViSafe Safety Shoe S3", "width": 1200, "height": 1200 }
+    ],
+    "keySpecs": [
+      { "label": "Rating", "value": "S3 SRC" },
+      { "label": "Toe cap", "value": "Steel, 200 J" },
+      { "label": "Standard", "value": "EN ISO 20345" }
+    ],
+    "specGroups": [
+      {
+        "title": "Specification",
+        "specs": [
+          { "label": "Safety rating", "value": "S3 SRC" },
+          { "label": "Toe cap", "value": "Steel, 200 J impact" },
+          { "label": "Midsole", "value": "Penetration-resistant plate" },
+          { "label": "Sole", "value": "Dual-density PU, anti-slip SRC" },
+          { "label": "Upper", "value": "Water-resistant leather" },
+          { "label": "Sizes", "value": "EU 39–46" },
+          { "label": "Standard", "value": "EN ISO 20345" }
+        ]
+      }
+    ],
+    "features": [
+      "Steel toe cap rated to 200 J impact",
+      "Penetration-resistant midsole plate",
+      "SRC anti-slip dual-density PU sole",
+      "Breathable lining for hot conditions"
+    ],
+    "tags": ["ppe", "footwear", "steel-toe"],
+    "sku": "VSF-SHO-S3"
   },
   {
     "id": "matrix-cutting-disc",

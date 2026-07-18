@@ -9,21 +9,20 @@ import { BrandWordmark } from "@/components/brand/brand-wordmark";
 import { Button } from "@/components/ui/button";
 import {
   getBrands,
+  getOwnBrands,
   getProducts,
   getProductsByBrand,
-  getVipex,
 } from "@/lib/data";
 import { routes } from "@/lib/routes";
 
 export const metadata: Metadata = {
   title: "Brands",
   description:
-    "VIPEX, our own professional tool brand, alongside Makita, Bosch, DeWalt, Stanley, Knipex, Fluke, ESAB and more.",
+    "VIPEX and ViSafe, our own tool and safety brands, alongside Makita, Bosch, DeWalt, Stanley, Knipex, Fluke, ESAB and more.",
 };
 
 export default function BrandsPage() {
-  const vipex = getVipex();
-  const vipexProducts = getProductsByBrand("vipex");
+  const ownBrands = getOwnBrands();
   const partners = getBrands().filter((b) => !b.isOwnBrand);
   const all = getProducts();
   const countFor = (brandId: string) =>
@@ -33,34 +32,46 @@ export default function BrandsPage() {
     <>
       <PageHeader
         eyebrow="Brands"
-        title="One own brand. A roster of specialists."
-        description="VIPEX leads our line, engineered and priced for the trade. Around it we carry the professional names you already specify."
+        title="Our own brands. A roster of specialists."
+        description="VIPEX leads our tool line and ViSafe covers the safety side — both engineered and priced for the trade. Around them we carry the professional names you already specify."
       />
 
-      {/* VIPEX feature */}
+      {/* Own-brand features */}
       <section className="bg-obsidian text-white">
-        <div className="container-shell py-16 md:py-24">
-          <Reveal className="flex flex-col justify-between gap-6 border-b border-white/10 pb-10 sm:flex-row sm:items-end">
-            <div>
-              <span className="font-mono text-xs uppercase tracking-[0.2em] text-white/50">
-                Our own brand
-              </span>
-              <BrandWordmark
-                brand={vipex}
-                className="mt-3 block text-5xl sm:text-6xl"
-              />
-              <p className="mt-4 max-w-xl text-sm leading-relaxed text-white/60">
-                {vipex.description}
-              </p>
-            </div>
-          </Reveal>
+        {ownBrands.map((brand, i) => {
+          const brandProducts = getProductsByBrand(brand.slug);
+          return (
+            <div
+              key={brand.id}
+              className={
+                i > 0 ? "border-t border-white/10" : undefined
+              }
+            >
+              <div className="container-shell py-16 md:py-24">
+                <Reveal className="flex flex-col justify-between gap-6 border-b border-white/10 pb-10 sm:flex-row sm:items-end">
+                  <div>
+                    <span className="font-mono text-xs uppercase tracking-[0.2em] text-white/50">
+                      Our own brand
+                    </span>
+                    <BrandWordmark
+                      brand={brand}
+                      className="mt-3 block text-5xl sm:text-6xl"
+                    />
+                    <p className="mt-4 max-w-xl text-sm leading-relaxed text-white/60">
+                      {brand.description}
+                    </p>
+                  </div>
+                </Reveal>
 
-          {vipexProducts.length > 0 && (
-            <Reveal className="mt-10">
-              <ProductGrid products={vipexProducts} />
-            </Reveal>
-          )}
-        </div>
+                {brandProducts.length > 0 && (
+                  <Reveal className="mt-10">
+                    <ProductGrid products={brandProducts} />
+                  </Reveal>
+                )}
+              </div>
+            </div>
+          );
+        })}
       </section>
 
       {/* Partners */}

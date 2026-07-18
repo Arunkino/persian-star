@@ -32,9 +32,14 @@ export function getBrand(id: string): Brand | undefined {
 }
 
 export function getVipex(): Brand {
-  const vipex = brands.find((b) => b.isOwnBrand);
+  const vipex = brands.find((b) => b.id === "vipex");
   if (!vipex) throw new Error("VIPEX brand missing from data");
   return vipex;
+}
+
+/** All house brands (VIPEX, ViSafe), in display order. */
+export function getOwnBrands(): Brand[] {
+  return getBrands().filter((b) => b.isOwnBrand);
 }
 
 /* ----------------------------- Categories ------------------------------ */

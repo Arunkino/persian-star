@@ -4,20 +4,20 @@
   "legalNameAr": "بيرشيان ستار لتجارة عدد وادوات البناء ش.ذ.م.م",
   "brandName": "VIPEX",
   "tagline": "Built to Work.",
-  "description": "Persian Star Building Hardware & Tools Trading L.L.C supplies professional tools across the UAE — VIPEX, our own brand, alongside Makita, Bosch, DeWalt, and the names the trade already trusts.",
+  "description": "Persian Star Building Hardware & Tools Trading L.L.C supplies professional tools across the UAE — VIPEX and ViSafe, our own brands, alongside Makita, Bosch, DeWalt, and the names the trade already trusts.",
   "url": "https://persianstar.example",
-  "whatsappNumber": "917559823796",
-  "phoneDisplay": "+91 755 982 3796",
-  "phoneHref": "+917559823796",
-  "email": "sales@persianstar.ae",
+  "whatsappNumber": "971526653727",
+  "phoneDisplay": "+971 52 665 3727",
+  "phoneHref": "+971526653727",
+  "email": "persianstartools@gmail.com",
   "address": {
-    "line1": "Building Hardware & Tools Trading L.L.C.",
-    "line2": "Industrial Area",
+    "line1": "Office 205, Al Muteena",
+    "line2": "Deira",
     "city": "Dubai",
     "country": "United Arab Emirates"
   },
   "hours": "Sat–Thu, 8:00–19:00 GST",
-  "geo": { "latitude": 25.2048, "longitude": 55.2708 },
+  "geo": { "latitude": 25.2745, "longitude": 55.321 },
   "socials": [
     { "label": "Instagram", "href": "#" },
     { "label": "LinkedIn", "href": "#" }

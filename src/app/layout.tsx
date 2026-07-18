@@ -38,6 +38,8 @@ export const metadata: Metadata = {
     "power tools",
     "hand tools",
     "VIPEX",
+    "ViSafe",
+    "safety equipment",
     "tools supplier UAE",
     "Dubai",
   ],

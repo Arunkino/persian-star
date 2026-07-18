@@ -78,8 +78,9 @@ export function Hero() {
             transition={{ duration: 0.7, ease: easeMachined, delay: 0.15 }}
             className="mt-6 max-w-lg text-base leading-relaxed text-white/70 sm:text-lg"
           >
-            From <span className="font-semibold text-white">VIPEX</span> — our
-            own brand — to Makita, Bosch, and DeWalt: professional tools for
+            From <span className="font-semibold text-white">VIPEX</span> and{" "}
+            <span className="font-semibold text-white">ViSafe</span> — our own
+            brands — to Makita, Bosch, and DeWalt: professional tools for
             every trade, supplied across the UAE. Check the specs and enquire
             in one message.
           </motion.p>

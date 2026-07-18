@@ -12,7 +12,7 @@ import { organizationLd } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Persian Star is a UAE trading house supplying VIPEX tools alongside the professional brands the trade trusts.",
+    "Persian Star is a UAE trading house supplying VIPEX tools and ViSafe safety gear alongside the professional brands the trade trusts.",
 };
 
 const stats: Stat[] = [
@@ -50,7 +50,8 @@ export default function AboutPage() {
             <p>
               We built VIPEX for exactly that customer — a house brand engineered
               to trade standards and priced for the people who use it every day.
-              Around it we carry the specialist names professionals already
+              ViSafe, our safety line, carries the same standard into PPE.
+              Around them we stock the specialist names professionals already
               specify, so a single enquiry covers the whole jobsite.
             </p>
           </div>

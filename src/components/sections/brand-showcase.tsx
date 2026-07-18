@@ -7,7 +7,7 @@ import { routes } from "@/lib/routes";
 
 export function BrandShowcase() {
   const brands = getBrands();
-  const vipex = brands.find((b) => b.isOwnBrand)!;
+  const ownBrands = brands.filter((b) => b.isOwnBrand);
   const partners = brands.filter((b) => !b.isOwnBrand);
 
   return (
@@ -15,26 +15,34 @@ export function BrandShowcase() {
       <SectionHeader
         eyebrow="Brands"
         title="One roof, the full toolkit"
-        description="VIPEX leads the line, backed by the professional brands you already specify."
+        description="VIPEX and ViSafe lead the line, backed by the professional brands you already specify."
         action={{ label: "Explore Brands", href: routes.brands }}
       />
 
       <Reveal className="mt-12">
-        {/* VIPEX feature bar */}
-        <Link
-          href={routes.brands}
-          className="flex flex-col justify-between gap-6 rounded-lg rounded-b-none border border-b-0 border-border bg-obsidian p-8 transition-colors hover:bg-graphite sm:flex-row sm:items-end"
-        >
-          <div>
-            <span className="font-mono text-xs uppercase tracking-[0.2em] text-white/50">
-              Our own brand
-            </span>
-            <BrandWordmark brand={vipex} className="mt-3 block text-4xl sm:text-5xl" />
-          </div>
-          <p className="max-w-md text-sm leading-relaxed text-white/60">
-            {vipex.description}
-          </p>
-        </Link>
+        {/* Own-brand feature bars */}
+        <div className="flex flex-col divide-y divide-white/10 overflow-hidden rounded-lg rounded-b-none border border-b-0 border-border">
+          {ownBrands.map((brand) => (
+            <Link
+              key={brand.id}
+              href={routes.brands}
+              className="flex flex-col justify-between gap-6 bg-obsidian p-8 transition-colors hover:bg-graphite sm:flex-row sm:items-end"
+            >
+              <div>
+                <span className="font-mono text-xs uppercase tracking-[0.2em] text-white/50">
+                  Our own brand
+                </span>
+                <BrandWordmark
+                  brand={brand}
+                  className="mt-3 block text-4xl sm:text-5xl"
+                />
+              </div>
+              <p className="max-w-md text-sm leading-relaxed text-white/60">
+                {brand.description}
+              </p>
+            </Link>
+          ))}
+        </div>
 
         {/* Partner grid — 9 names tile cleanly at 3 columns */}
         <div className="grid grid-cols-3 gap-px overflow-hidden rounded-lg rounded-t-none border border-border bg-border">

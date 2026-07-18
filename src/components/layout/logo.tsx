@@ -1,13 +1,13 @@
 import Link from "next/link";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 
 type Subtitle = "full" | "short" | "none";
 
 /**
- * Persian Star lockup, rebuilt as live text + vector so it stays crisp at any
- * size: PERSI★NSTAR — the red five-point star stands in for the "A", echoing
- * the company logo — over a mono descriptor line. Swap for the real vector
- * artwork anytime; keep the layout.
+ * Persian Star lockup, rebuilt as live text so it stays crisp at any size:
+ * PERSI★NSTAR — the real star-A brand mark stands in for the "A", exactly as
+ * in the company logo — over a mono descriptor line.
  */
 export function Logo({
   className,
@@ -34,7 +34,14 @@ export function Logo({
         )}
       >
         Persi
-        <StarGlyph className="mx-[0.03em] size-[0.82em] text-vipex" />
+        <Image
+          src="/images/logo/star-mark.png"
+          alt=""
+          aria-hidden="true"
+          width={631}
+          height={455}
+          className="mx-[0.06em] h-[0.94em] w-auto"
+        />
         nstar
       </span>
       {subtitle !== "none" && (
@@ -53,16 +60,3 @@ export function Logo({
   );
 }
 
-/** Five-point star — the "A" of the Persian Star wordmark. */
-export function StarGlyph({ className }: { className?: string }) {
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      aria-hidden="true"
-      className={className}
-      fill="currentColor"
-    >
-      <polygon points="12,1 14.59,8.44 22.46,8.6 16.19,13.36 18.47,20.9 12,16.4 5.53,20.9 7.81,13.36 1.54,8.6 9.41,8.44" />
-    </svg>
-  );
-}

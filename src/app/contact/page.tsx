@@ -13,7 +13,7 @@ import { localBusinessLd } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Enquire about VIPEX and partner-brand tools via WhatsApp or email. Supplied across the UAE.",
+    "Enquire about VIPEX, ViSafe, and partner-brand tools via WhatsApp or email. Supplied across the UAE.",
 };
 
 export default function ContactPage() {
